@@ -15,42 +15,38 @@
       color: #363636;
     }
 
-.caixa1 {
-  background-color: #dcdcdc;
-  border: 2px solid #d3d3d3;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-}
+    .caixa1 {
+      background-color: #dcdcdc;
+      border: 2px solid #d3d3d3;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
 
-.caixa2 {
-  background-color: #e0ffff;
-  border: 2px solid #aaa;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-}
+    .caixa2 {
+      background-color: #e0ffff;
+      border: 2px solid #aaa;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
 
-.caixa3 {
-  background-color: #fffbea;
-  border: 2px solid #ccc;
-  padding: 20px;
-  border-radius: 12px;
-  margin-bottom: 20px;
-}
-
-    ol {
-      padding-left: 20px;
+    .caixa3 {
+      background-color: #fffbea;
+      border: 2px solid #ccc;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
     }
 
     a {
       color: #4f4f4f;
-      transition: color 0.3s ease; /*suaviza a mudança*/
+      transition: color 0.3s ease;
       text-decoration: none;
     }
 
     a:hover {
-      color: 2f4f4f;
+      color: #2f4f4f;
     }
 
     h2 {
@@ -69,16 +65,11 @@
 
   <div class="caixa1">
     <h1>📁 Prontuários</h1>
-
-    <!-- Link para o prontuário do Pelúcia -->
-    <p class="pet-link">🐱 <a href="#pelucia">Pelúcia</a></p> 
-
-    <!-- Link para o prontuário da Amelie -->
+    <p class="pet-link">🐱 <a href="#pelucia">Pelúcia</a></p>
     <p class="pet-link">🐱 <a href="#amelie">Amelie</a></p>
   </div>
 
-  <!-- Seção real do prontuário -->
-<div class="caixa2">
+  <div class="caixa2" id="pelucia">
     <h2>🐾 Pelúcia</h2>
     <p><strong>Espécie:</strong> Felina</p>
     <p><strong>Sexo:</strong> Macho</p>
@@ -87,53 +78,13 @@
     <p><strong>Veterinários:</strong> Dra. Millena Rosas (Esp. Felinos), Dra. Vithoria Santa Clara (Clínica), Dra. Renata (Nefrologista), Dra. Talita (Neurologista), Dra. Manuela (Cuidados Paliativos)</p>
 
     <h3>🧪 Exames</h3>
-    <ol>
-      <li><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+CR+08.05.pdf" target="_blank">Raio-x de Crânio 08.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+10.05.pdf" target="_blank">Ultrassonografia Abdominal 10.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+11.05.pdf" target="_blank">Ultrassonografia Abdominal 11.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+ABD+12.05.pdf" target="_blank">Raio-x Abdominal 12-05-2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+TX+SE+13.05.pdf" target="_blank">Raio-x de Tórax 13.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABS+21.05.pdf" target="_blank">Ultrassonografia Abdominal 21.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+HB+BQ+PCR-TB+SORO-MYC+30.05.pdf" target="_blank">Hemograma, Bioquímicos, PCR Tbm e Sorologia Mycoplasma 30.05.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+06.06.pdf" target="_blank">Ultrassonografia Abdominal 06.06.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+HM+BQ+10.06.pdf" target="_blank">Hemograma e Bioquímicos 10.06.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+12.06.pdf" target="_blank">Ultrassonografia Abdominal 12.06.2025</a></li>
-      <li><a 
-href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+21.06.pdf" target="_blank">Ultrassonografia Abdominal 21.06.2025</a></li>
-    </ol>
-
-    <h3>💊 Prescrição de medicamentos</h3>
-    <ul>
-      <li><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/prontuario-pelucia/medicacoes-27-05-2025.docx" target="_blank">Medicamentos</a></li>
-      <li><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/prontuario-pelucia/precricao-27-05-2025.xlsx" target="_blank">Medicações e cuidados</a></li>
-    </ul>
-  </div>
-
-
-  <!-- Seção real do prontuário -->
-  <div class="caixa3" id="amelie">
-    <h2>🐾 Amelie</h2>
-    <p><strong>Espécie:</strong> Felina</p>
-    <p><strong>Sexo:</strong> Fêmea</p>
-    <p><strong>Idade:</strong>1 ano e 1 mês</p>
-    <p><strong>Última vacina:</strong> Não lembro kkkk</p>
-    <p><strong>Veterinários:</strong> Dra. Millena Rosas (Esp. Felinos) e Dra. Vithoria Santa Clara (Clínica)</p> 
-    
-    <h3>🧪 Exames</h3>
-        	<li>❌Sem exames cadastrados</li>
-        
-    <h3>💊 Prescrição de medicamentos</h3>
-        	<li>❌ Sem prescrições cadastradas</li>
-    </div>   
-     	
-</body>
-</html>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+CR+08.05.pdf" target="_blank">Raio-x de Crânio 08.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+10.05.pdf" target="_blank">Ultrassonografia Abdominal 10.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+11.05.pdf" target="_blank">Ultrassonografia Abdominal 11.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+ABD+12.05.pdf" target="_blank">Raio-x Abdominal 12-05-2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+RX+TX+SE+13.05.pdf" target="_blank">Raio-x de Tórax 13.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABS+21.05.pdf" target="_blank">Ultrassonografia Abdominal 21.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+HB+BQ+PCR-TB+SORO-MYC+30.05.pdf" target="_blank">Hemograma, Bioquímicos, PCR Tbm e Sorologia Mycoplasma 30.05.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+06.06.pdf" target="_blank">Ultrassonografia Abdominal 06.06.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+HM+BQ+10.06.pdf" target="_blank">Hemograma e Bioquímicos 10.06.2025</a></p>
+    <p><a href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+12.06.pdf" target="_blank">Ultrassonografia Abdominal 12.06.2025</a
