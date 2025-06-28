@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #B0cade;
+      background-color: #f0ffff;
       color: #1c1c1c;
       margin: 40px;
     }
@@ -16,6 +16,14 @@
     }
 
 .caixa1 {
+  background-color: #dcdcdc;
+  border: 2px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.caixa2 {
   background-color: #e0ffff;
   border: 2px solid #aaa;
   padding: 20px;
@@ -23,7 +31,7 @@
   margin-bottom: 20px;
 }
 
-.caixa2 {
+.caixa3 {
   background-color: #fffbea;
   border: 2px solid #ccc;
   padding: 20px;
@@ -38,6 +46,7 @@
     a {
       color: #4f4f4f;
       transition: color 0.3s ease; /*suaviza a mudança*/
+      text-decoration: none;
     }
 
     a:hover {
@@ -58,7 +67,7 @@
 </head>
 <body>
 
-  <div class="caixa">
+  <div class="caixa1">
     <h1>📁 Prontuários</h1>
 
     <!-- Link para o prontuário do Pelúcia -->
@@ -69,7 +78,7 @@
   </div>
 
   <!-- Seção real do prontuário -->
-  <div class="caixa" id="pelucia">
+<div class="caixa2">
     <h2>🐾 Pelúcia</h2>
     <p><strong>Espécie:</strong> Felina</p>
     <p><strong>Sexo:</strong> Macho</p>
@@ -111,7 +120,7 @@ href="https://prontuario-pelucia.s3.sa-east-1.amazonaws.com/Exames/PELU+USG+ABD+
 
 
   <!-- Seção real do prontuário -->
-  <div class="caixa" id="amelie">
+  <div class="caixa3" id="amelie">
     <h2>🐾 Amelie</h2>
     <p><strong>Espécie:</strong> Felina</p>
     <p><strong>Sexo:</strong> Fêmea</p>
